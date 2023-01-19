@@ -71,7 +71,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](index.html)
+- [Coming soon](index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,9 +141,8 @@ To run the project, execute the following commands:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **Dray and drop list items.**
-- [ ] **Edit the item of list.**
-- [ ] **More Interactivity.**
+- [ ] **Clender**
+- [ ] **Time**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
