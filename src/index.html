@@ -2,31 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
-    <title>List Structure</title>
+    <title>To-do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <section class="form-section">
-      <form id="form" class="form-control">
-        <div class="header-wrap">
-          <h3 class="heading">Today's To Do</h3>
-          <span class="syc"><i class="fas fa-sync"></i></span>
-        </div>
-        <div class="form-input">
-          <input type="text" name="text" id="text" placeholder="Add to your list..." class="italics"/>
-          <button type="submit" class="add"><i class='bx bx-subdirectory-left'></i></button>
-        </div>
-
-        <ul class="container">
-        </ul>
-        
-        <div class="clear">
-          <a href="#">Clear all completed task</a>
-        </div>
-      </form>
-    </section>
+    <main>
+      <section class="container">
+        <header class="list-header">
+          <h1 class="list-title color-gray">Today's To Do</h1>
+        </header>
+        <form id="add-todo" class="input-form">
+          <input placeholder="Add to your list..." class="add-todo-input"/>
+          <button class="icon-button refresh-button opacity-2" type="submit">
+            <span class="material-icons">keyboard_return</span>
+          </button>
+        </form>
+        <ul id="items"></ul>
+        <footer class="list-footer">
+          <button class="clear-button opacity-5" id="clear-btn" type="button">
+            Clear all completed
+          </button>
+        </footer>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <small class="color-gray">&copy; 2021 Made by Usman</small>
+    </footer>
   </body>
 </html>
