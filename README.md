@@ -71,7 +71,7 @@
 
 > Add a link to your deployed project.
 
-- [Coming soon](index.html)
+- [Live Demo](https://usamamasood12.github.io/To-do-list/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
